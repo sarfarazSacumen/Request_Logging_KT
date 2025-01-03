@@ -79,7 +79,7 @@ class Slack:
             self.logger.error(f"Content Not Found {e}", exc_info=True)
 
 base_url = "https://slack.com/api"
-access_token = "xoxb-8228632731095-8243326122850-mcjoXx2EreYxd678slNavcZJ"
+access_token = "Give actual token"
 
 slack = Slack(base_url, access_token)
 slack.get_converetsion_list()
